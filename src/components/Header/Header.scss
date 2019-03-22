@@ -1,0 +1,54 @@
+.Header {
+  font-family: "Raleway-SemiBoid", sans-serif;
+  font-size: 15px;
+  color: #414143;
+  line-height: 1.25;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+  height: 110px;
+}
+
+.Header_logo {
+  vertical-align: super;
+}
+
+.flag-select .country-flag .country-label {
+  font-size: 0 !important;
+}
+
+.flag-select .selected--flag--option {
+  display: flex;
+  flex-direction: column;
+}
+
+.flag-select .country-flag {
+  margin-bottom: 5px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+.Header_link {
+  padding: 0;
+  font-family: "Raleway-SemiBoid", sans-serif;
+  font-size: 15px;
+  color: #414143;
+}
+
+.Header_phone {
+  padding: 0;
+  color: #3d3d3e;
+  font-size: 22px;
+  font-family: "TTNorms-Regular", sans-serif;
+}
+
+.Header_wrap--links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+}

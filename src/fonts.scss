@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url("./fonts/Raleway-Medium/Raleway-Medium.eot");
+  src: url("./fonts/Raleway-Medium/Raleway-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Raleway-Medium/Raleway-Medium.woff") format("woff"),
+    url("./fonts/Raleway-Medium/Raleway-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("./fonts/Raleway-Regular/Raleway-Regular.eot");
+  src: url("./fonts/Raleway-Regular/Raleway-Regular.eot")
+      format("embedded-opentype"),
+    url("./fonts/Raleway-Regular/Raleway-Regular.woff") format("woff"),
+    url("./fonts/Raleway-Regular/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("./fonts/Raleway-SemiBold/Raleway-SemiBold.eot");
+  src: url("./fonts/Raleway-SemiBold/Raleway-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Raleway-SemiBold/Raleway-SemiBold.woff") format("woff"),
+    url("./fonts/Raleway-SemiBold/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTCommons-Regular";
+  src: url("./fonts/TTCommons-Regular/TTCommons-Regular.eot");
+  src: url("./fonts/TTCommons-Regular/TTCommons-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/TTCommons-Regular/TTCommons-Regular.woff") format("woff"),
+    url("./fonts/TTCommons-Regular/TTCommons-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms-Regular";
+  src: url("./fonts/TTNorms-Regular/TTNorms-Regular.eot");
+  src: url("./fonts/TTNorms-Regular/TTNorms-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/TTNorms-Regular/TTNorms-Regular.woff") format("woff"),
+    url("./fonts/TTNorms-Regular/TTNorms-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms-Light";
+  src: url("./fonts/TTNorms-Light/TTNorms-Light.eot");
+  src: url("./fonts/TTNorms-Light/TTNorms-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/TTNorms-Light/TTNorms-Light.woff") format("woff"),
+    url("./fonts/TTNorms-Light/TTNorms-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}

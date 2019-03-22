@@ -1,0 +1,56 @@
+.FSC-container {
+  width: 1400px;
+  height: 192px;
+  background-color: #f1f1f1;
+  position: absolute;
+  z-index: 99988999;
+  transform: translate(50%);
+  bottom: 50%;
+  right: 50%;
+  padding-left: 35px;
+  padding-right: 35px;
+  .form-control {
+    border: none;
+    font-size: 16px;
+    font-family: "Raleway-Medium", sans-serif !important;
+    color: #414143;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 0;
+  }
+}
+
+.FSC_formBlock {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.selectBlock1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectBlock1_part2 {
+  display: flex;
+}
+
+.selectBlock1 {
+  width: 430px;
+}
+
+.selectBlock2 {
+  width: 210px;
+}
+
+.formSubmit {
+  background-color: #f8941e;
+  color: #ffffff !important;
+  font-size: 18px;
+  &:active,
+  &:focus {
+    color: #414143 !important;
+  }
+}

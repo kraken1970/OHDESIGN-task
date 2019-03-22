@@ -1,0 +1,55 @@
+.FirstScreenTop {
+  background-image: url(../../img/bgFirst.png);
+  background-size: cover;
+  background-position: center top;
+  height: 550px;
+}
+
+.FST_content {
+  padding-top: 60px;
+  padding-left: 35px;
+}
+
+.FST_content--h1 {
+  font-size: 50px;
+  font-family: "Raleway-Medium", sans-serif;
+  color: #414143;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.FST_content--links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 750px;
+}
+
+.FST_link {
+  font-size: 18px;
+  font-family: "Raleway-Regular", sans-serif;
+  color: #414143;
+  margin-right: 100px;
+  margin-bottom: 15px;
+  position: relative;
+  &::after {
+    content: "";
+    width: 97%;
+    height: 1px;
+    background-color: #848484;
+    position: absolute;
+    top: 25px;
+    left: 2%;
+  }
+  &:hover {
+    color: #0056b3;
+    &::after {
+      content: none;
+    }
+  }
+  &:nth-child(3n + 3) {
+    margin-right: 0;
+  }
+  &:nth-child(3n + 4) {
+    margin-right: 75px;
+  }
+}
