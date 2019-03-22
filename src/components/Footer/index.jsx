@@ -15,11 +15,32 @@ const Footer = () => {
           </div>
           <div className="Footer_contact--content">
             <p className="adress">Kurfürstendamm 45 Berlin 10719</p>
-            <p className="phone">+49 30 889-203-99</p>
-            <p className="phone">+49 178 519-87-28</p>
+            <Nav.Link
+              href="tel:+49 30 889 203 99"
+              className="Header_phone phone"
+            >
+              +49 30 889 203 99
+            </Nav.Link>
+            <Nav.Link
+              href="tel:+49 178 519-87-28"
+              className="Header_phone phone"
+            >
+              +49 178 519-87-28
+            </Nav.Link>
             <p className="post">
-              info@ew-realestate.de <br /> skype: east-westrealestate Игорь
-              Зиберт
+              <Nav.Link
+                href="mailto:info@ew-realestate.de"
+                className="Header_phone Footer_post"
+              >
+                info@ew-realestate.de
+              </Nav.Link>
+              <Nav.Link
+                href="skype:east-westrealestate"
+                className="Header_phone Footer_post"
+              >
+                east-westrealestate
+              </Nav.Link>
+              <p>Игорь Зиберт</p>
             </p>
           </div>
           <div className="network_block">
